@@ -1,4 +1,4 @@
-# Ironclad Agent Sandbox (IAS)
+# Ironclad
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Security Model](https://img.shields.io/badge/Security-Kerckhoffs_Principle-success.svg)](specs/THREAT_MODEL.md)
@@ -70,7 +70,7 @@ This project synthesizes and extends the state-of-the-art in open-source virtual
 ## Repository Structure
 
 ```text
-ironclad-agent-sandbox/
+ironclad/
 ├── configs/
 │   ├── seccomp_filter.json       # Host-level BPF syscall filters
 │   └── microvm_template.json     # Hardware allocation (vCPU, memory, vsock)
